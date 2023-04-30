@@ -347,15 +347,23 @@ body {
 .images-cards {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  margin-left: -100px;
+  margin-top: -100px;
 }
 
 .photo {
-  margin-left: 30px;
-  margin-top: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .photo {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 30px) / 3);
+}
+
+.photo > img {
+  align-self: flex-start;
+}
+
+.photo {
+  border: 1px solid #eeeeee;
 }
