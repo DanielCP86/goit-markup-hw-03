@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --text-font-family: "Roboto", sans-serif;
+  --logo-font-family: "Raleway", sans-serif;
+  --link-text-color: #212121;
+  --text-color: #757575;
+  --backround-text-color: #ffffff;
+  --backround-title-footer-color: #2f303a;
+  --hover-focus-color: #2196f3;
+  --email-phone-footer-color: #ffffff99;
+  --backround-our-team-color: #f5f4fa;
+}
+
+body {
+  font-family: var(--text-font-family);
+  background: var(--backround-text-color);
+  color: var(--link-text-color);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.global-header {
+  font-weight: 500;
+  font-style: medium;
+  font-size: 14px;
+  line-height: 1.14;
+  background-color: var(--backround-text-color);
+  padding-left: 215px;
+  padding-right: 215px;
+  border-bottom: 5px;
+}
+
+/*logo*/
+.logo {
+  font-family: var(--logo-font-family);
+  font-weight: 700;
+  font-style: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 3%;
+  text-decoration: none;
+  padding-top: 24px;
+  padding-right: 93px;
+  padding-bottom: 25px;
+}
+
+.logo-web {
+  color: var(--hover-focus-color);
+}
+
+.logo-studio {
+  color: var(--link-text-color);
+}
+
+.logo:hover > *,
+.logo:focus > * {
+  color: var(--hover-focus-color);
+}
+
+/*header-navigatin*/
+.primary-navigation a {
+  color: var(--link-text-color);
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 2%;
+  list-style-type: none;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+.primary-navigation a:hover,
+.primary-navigation a:focus {
+  color: var(--hover-focus-color);
+}
+
+.email-header {
+  list-style-type: none;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 2%;
+  text-decoration: none;
+  color: var(--text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 40px;
+  margin-left: 200px;
+}
+
+.phone-header {
+  list-style-type: none;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 2%;
+  text-decoration: none;
+  color: var(--text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.email-header:hover,
+.email-header:focus {
+  color: var(--hover-focus-color);
+}
+
+.phone-header:hover,
+.phone-header:focus {
+  color: var(--hover-focus-color);
+}
+
+.general-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list-header {
+  display: flex;
+}
+
+/*title*/
+.title-section {
+  background-color: var(--backround-title-footer-color);
+  text-align: center;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  vertical-align: top;
+  letter-spacing: 6%;
+  color: var(--backround-text-color);
+}
+/*button*/
+.request-service-btn {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 6%;
+  cursor: pointer;
+}
+
+.request-service-btn:hover,
+.request-service-btn:focus {
+  color: var(--backround-text-color);
+  background-color: var(--hover-focus-color);
+}
+
+/*main-list*/
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.about-list {
+  display: flex;
+}
+
+.list-title {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 3%;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.list-text {
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 3%;
+  color: var(--text-color);
+  margin-left: 30px;
+}
+/*what-we-do-section*/
+.what-we-do {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 3%;
+  margin-bottom: 50 px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.img-item {
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+.team-section {
+  background-color: var(--backround-our-team-color);
+}
+/*our-team-section*/
+.our-team {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 3%;
+  margin-bottom: 50 px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-img {
+  list-style-type: none;
+  margin-left: 30px;
+}
+.team-name {
+  font-weight: 500;
+  font-style: medium;
+  font-size: 16px;
+  line-height: 1.18;
+  vertical-align: top;
+  letter-spacing: 3%;
+}
+
+.team-profession {
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--text-color);
+}
+
+/*footer*/
+.global-footer {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 3%;
+  background-color: var(--backround-title-footer-color);
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
+.logo-studio-footer {
+  color: var(--backround-text-color);
+  padding-top: 60px;
+  margin-bottom: 28px;
+}
+
+.logo-studio-footer:hover,
+.logo-studio-footer:focus {
+  color: var(--hover-focus-color);
+}
+
+.map-adress {
+  color: var(--backround-text-color);
+  margin-bottom: 12px;
+}
+
+.email-footer {
+  color: var(--email-phone-footer-color);
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+
+.phone-footer {
+  color: var(--email-phone-footer-color);
+  text-decoration: none;
+  display: flex;
+  margin-top: 12px;
+}
+
+.email-footer:hover,
+.email-footer:focus {
+  color: var(--hover-focus-color);
+}
+
+.phone-footer:hover,
+.phone-footer:focus {
+  color: var(--hover-focus-color);
+}
+
+/*page-2-portofolio*/
+.nav-btn {
+  font-weight: 500;
+  font-style: medium;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 3%;
+  border: none;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+  background-color: var(--hover-focus-color);
+  color: var(--backround-text-color);
+}
+
+.photo .photo-name {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 18px;
+  line-height: 2;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 6%;
+}
+
+.photo .photo-text {
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 3%;
+  color: var(--text-color);
+}
+
+.button-list {
+  display: flex;
+  justify-content: center;
+}
+
+.images-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -60px;
+  margin-bottom: -60px;
+}
+
+.photo {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.photo {
+  flex-basis: calc((100% - 10px) / 3);
+}
